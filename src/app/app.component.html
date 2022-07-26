@@ -1,4 +1,4 @@
-<h1>{{ title }}</h1>
+<h1>{{ title | uppercase }}</h1>
 <p>{{ showTitle() }}</p>
 <button [disabled]="true">this is property binding, and it could be interpolated too (ie: an enable function in app.component.ts)</button>
 <app-ideas></app-ideas>
@@ -8,3 +8,4 @@
 
 
 <!-- this.key vs just key? -->
+<!-- I've played with passing information betwen app files, how would you pass to a child component? -->
