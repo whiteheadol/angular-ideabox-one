@@ -1,1 +1,4 @@
 <p class="mini-title">hello!</p>
+<ul *ngIf="showPets">
+  <li *ngFor="let pet of pets">{{ pet }}</li>
+</ul>
