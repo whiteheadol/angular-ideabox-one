@@ -7,9 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-ideabox-practice';
+  isBlue = true
 
   showTitle() {
     return 'another title'
+  }
+
+  handleClick() {
+    this.isBlue = !this.isBlue;
   }
 
 }
@@ -18,5 +23,7 @@ export class AppComponent {
 // The logic is kept out of the html file, compared to React where the JSX is embedded into the component file
 
 
+// Interpolation Binding
 // Property Binding w/ button
 // Class Binding w/ the blue p tag
+// Event Binding (tying to an event, ex: click) w/
