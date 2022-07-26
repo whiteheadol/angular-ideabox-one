@@ -2,4 +2,5 @@
 <p>{{ showTitle() }}</p>
 <button [disabled]="true">this is property binding, and it could be interpolated too (ie: an enable function in app.component.ts)</button>
 <app-ideas></app-ideas>
-<p [class.blue]="true">Can we print this blue?</p>
+<p [class.blue]="this.isBlue">Can we print this blue?</p>
+<button (click)="handleClick()">change the text color</button>
