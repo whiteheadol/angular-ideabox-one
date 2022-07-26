@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IdeasComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
+  pets = ['dog', 'cat', 'bird'];
+  showPets = true;
 
   ngOnInit(): void {
   }
