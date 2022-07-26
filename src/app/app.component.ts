@@ -33,3 +33,5 @@ export class AppComponent {
 // Class Binding w/ the blue p tag
 // Event Binding (tying to an event, ex: click) w/ color changing button
 // Two Way Binding w/ the input
+
+// Pipes are so cool! Look at more use cases! date is a cool place to start
