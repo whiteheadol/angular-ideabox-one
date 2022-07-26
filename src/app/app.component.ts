@@ -16,3 +16,7 @@ export class AppComponent {
 
 // All of the logic for your main app would go here!
 // The logic is kept out of the html file, compared to React where the JSX is embedded into the component file
+
+
+// Property Binding w/ button
+// Class Binding w/ the blue p tag
